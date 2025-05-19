@@ -1,0 +1,14 @@
+local valid_key = "@admin"
+local valid2_key = "MTIzMzQ1Njc4OTg3NjU0MzIxCnNkYXNkYXNkYXNkYXM"
+local valid3_key = "MTAyMzEyMzkwMTIzOTgxMjA5NDEyMDQ4MTkwMjQ4OTAxMjA0OTEyODA5"
+local valid4_key = "bm90b2Rhc2ZramRza2ZzYWtsZmphc2Rza2ZqbGthc2VmanNhbGQ"
+
+
+if getgenv().script_key == valid_key then
+    print("yes")
+task.wait(19) -- erm it give time to inject so
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/desire370/bleed/refs/heads/main/bleed%20(dahood%20verison%20plus%20copys).lua"))()
+print("discord.gg/bleednet legit cheating")
+else
+    warn("Invalid key.")
+end
