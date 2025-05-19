@@ -3430,7 +3430,7 @@ local nigga = (function() -- src/Lua/loader.lua
         Information.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Information.TextYAlignment = Enum.TextYAlignment.Top
         Information.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Information.Text = "Version Loaded : Da Hood"
+        Information.Text = "Version Loaded : Da Hood (Copys)"
         Information.TextXAlignment = Enum.TextXAlignment.Left
         Information.TextSize = 14
         Information.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -3534,7 +3534,7 @@ local nigga = (function() -- src/Lua/loader.lua
         Shadow1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Shadow1.ImageColor3 = Color3.fromRGB(0, 0, 0)
         Shadow1.ScaleType = Enum.ScaleType.Tile
-        Shadow1.Image = "rbxassetid://76979630924801"
+        Shadow1.Image = "rbxassetid://8992230677"
         Shadow1.SliceCenter = Rect.new(Vector2.new(0, 0), Vector2.new(99, 99))
     
         for i, v in pairs(Loader:GetDescendants()) do
@@ -3613,7 +3613,7 @@ local nigga = (function() -- src/Lua/loader.lua
     
     local info_text_table = {
         "Welcome Buyer",
-        "Loaded Da Hood Version (works for dahood copy)",
+        "Loaded Da Hood Version (copy)",
         "Version 2.1"
     }
     local info_text = table.concat(info_text_table, "\n")
