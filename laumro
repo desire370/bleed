@@ -1,16 +1,8 @@
-local script_key = "sj"
+local valid_key = "sOoCEHTnoiimFpEQXcqYRZqomShICxsj"
 
-if script_key == user_key then
-    print("Key is valid. Loading script...")
-
-    -- Example: Load script from a URL
-    local source =   game:HttpGet("https://raw.githubusercontent.com/desire370/bleed/refs/heads/main/bleed%20(dahood%20verison%20plus%20copys).lua")
-    local func = loadstring(source)
-    if func then
-        func()
-    else
-        print("Failed to compile loaded script.")
-    end
+if getgenv().script_key == valid_key then
+    print("Key valid. Running main script...")
+    -- main code here
 else
-    print("Invalid key.")
+    warn("Invalid key.")
 end
