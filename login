@@ -1,4 +1,8 @@
-local valid_key = "sOoCEHTnoiimFpEQXcqYRZqomShICxsj"
+local valid_key = "@admin"
+local valid2_key = "MTIzMzQ1Njc4OTg3NjU0MzIxCnNkYXNkYXNkYXNkYXM"
+local valid3_key = "MTAyMzEyMzkwMTIzOTgxMjA5NDEyMDQ4MTkwMjQ4OTAxMjA0OTEyODA5"
+local valid4_key = "bm90b2Rhc2ZramRza2ZzYWtsZmphc2Rza2ZqbGthc2VmanNhbGQ"
+
 
 if getgenv().script_key == valid_key then
     print("yes")
