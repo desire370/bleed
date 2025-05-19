@@ -1,0 +1,6 @@
+{
+    "SoftwareVersion": "1.3",
+    "SoftwareUrl":"https://cdn.discordapp.com/attachments/1371602249264009368/1373971578316128276/Updated_verison_of_the_external.zip?ex=682c5a3f&is=682b08bf&hm=ff8ec136d9c8d06a0cc452679180f449cc4740060177cb1c38f208bdea24f2aa&",
+    "Status":"True",
+    "Changelog":"[+] ADDED A BIGGER SCRIPTHUB AND ADD SETTINGS BUTTON AND A GAME BUTTON IN THE SETTTINGS CREDITS TO ME"
+}
