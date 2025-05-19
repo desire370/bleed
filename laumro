@@ -1,12 +1,16 @@
-  local valid_key = "hi123!"
-    
-    if script_key == valid_key then
-        print("Key valid. Loading script...")
+local script_key = "sj"
 
-        -- Your real script goes here, or you can fetch it from the internet
-        -- Example: loadstring(game:HttpGet("https://raw.githubusercontent.com/desire370/bleed/refs/heads/main/bleed%20(dahood%20verison%20plus%20copys).lua"))()
-        print("Your script has been loaded!") -- replace with real loadstring
+if script_key == user_key then
+    print("Key is valid. Loading script...")
+
+    -- Example: Load script from a URL
+    local source =   game:HttpGet("https://raw.githubusercontent.com/desire370/bleed/refs/heads/main/bleed%20(dahood%20verison%20plus%20copys).lua")
+    local func = loadstring(source)
+    if func then
+        func()
     else
-        print("Key check failed: Invalid key.")
+        print("Failed to compile loaded script.")
     end
-]])()
+else
+    print("Invalid key.")
+end
